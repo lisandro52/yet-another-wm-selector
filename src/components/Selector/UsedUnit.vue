@@ -52,7 +52,6 @@ export default {
 
 <style lang="scss">
   .selector-view .used.unit {
-    &.hasFocus,
     &:hover {
       .upgrades {
         display: table;

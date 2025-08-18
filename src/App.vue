@@ -60,12 +60,6 @@ import { mapGetters } from 'vuex';
 
 import PrintItems from '@/components/Print/PrintItems';
 
-function removeHasFocusClass(element) {
-  Array.prototype.forEach.call(element.querySelectorAll('.hasFocus'), (element) => {
-    element.classList.remove('hasFocus');
-  });
-}
-
 export default {
   name: 'wm-selector',
   components: { PrintItems },
@@ -74,17 +68,6 @@ export default {
     local: window.location.hostname === 'localhost',
     version: process.env.VUE_APP_VERSION
   }),
-  mounted () {
-    document.addEventListener('focusin', (event) => {
-      if (event.target.closest('.hasFocus')) {
-        removeHasFocusClass(event.target.closest('.hasFocus'));
-      } else {
-        removeHasFocusClass(document);
-      }
-
-      event.target.classList.add('hasFocus');
-    });
-  }
 };
 </script>
 
