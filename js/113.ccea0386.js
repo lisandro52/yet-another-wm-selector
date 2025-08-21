@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkyet_another_wm_selector"]=self["webpackChunkyet_another_wm_selector"]||[]).push([[113],{9113:function(e,t,n){n.r(t),n.d(t,{default:function(){return o}});var s=function(){var e=this,t=e._self._c;return t("main",{staticClass:"text-view"},[t("TextList")],1)},l=[],r=n(2135),u={name:"TextView",components:{TextList:r.A}},a=u,c=n(1656),i=(0,c.A)(a,s,l,!1,null,null,null),o=i.exports}}]);
+//# sourceMappingURL=113.ccea0386.js.map
