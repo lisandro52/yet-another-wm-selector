@@ -12,7 +12,8 @@
       "armour": "5+",
       "size": 3,
       "points": 105,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Leadbelchers": {
       "order": 1,
@@ -23,7 +24,8 @@
       "armour": "6+",
       "size": 3,
       "points": 90,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Ironguts": {
       "order": 2,
@@ -33,7 +35,8 @@
       "armour": "4+",
       "size": 3,
       "points": 140,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Yhetees": {
       "order": 3,
@@ -42,7 +45,8 @@
       "hits": 4,
       "size": 3,
       "points": 90,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Gnoblars": {
       "order": 4,
@@ -52,7 +56,8 @@
       "hits": 3,
       "size": 3,
       "points": 30,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Rhinox Riders": {
       "order": 5,
@@ -62,7 +67,8 @@
       "armour": "5+",
       "size": 3,
       "points": 200,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Gorgers": {
       "order": 6,
@@ -72,7 +78,8 @@
       "armour": "5+",
       "size": 3,
       "points": 110,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Sabretusks": {
       "order": 7,
@@ -81,7 +88,8 @@
       "hits": 3,
       "size": 3,
       "points": 40,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Slave Giant": {
       "order": 8,
@@ -94,7 +102,8 @@
       "max": 1,
       "specialRules": [
         "Giant"
-      ]
+      ],
+      "scout": 0
     },
     "Scrap Launcher": {
       "order": 9,
@@ -108,7 +117,8 @@
       "max": 1,
       "specialRules": [
         "Stone Thrower"
-      ]
+      ],
+      "scout": 0
     },
     "Tyrant": {
       "order": 10,
@@ -121,7 +131,8 @@
       "armyMax": 1,
       "upgrades": [
         "Bull Rhinox"
-      ]
+      ],
+      "scout": 0
     },
     "Bruiser": {
       "order": 11,
@@ -133,7 +144,8 @@
       "max": 1,
       "upgrades": [
         "Bull Rhinox"
-      ]
+      ],
+      "scout": 0
     },
     "Butcher": {
       "order": 12,
@@ -145,7 +157,8 @@
       "max": 1,
       "upgrades": [
         "Bull Rhinox"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -154,7 +167,8 @@
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+65",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

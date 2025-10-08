@@ -12,7 +12,8 @@
       "armour": "6+",
       "size": 3,
       "points": 45,
-      "min": 1
+      "min": 1,
+      "scout": 0
     },
     "Ashigaru Bowmen": {
       "order": 1,
@@ -21,7 +22,8 @@
       "range": "30cm",
       "hits": 3,
       "size": 3,
-      "points": 55
+      "points": 55,
+      "scout": 0
     },
     "Ashigaru Teppo": {
       "order": 2,
@@ -30,7 +32,8 @@
       "range": "30cm",
       "hits": 3,
       "size": 3,
-      "points": 65
+      "points": 65,
+      "scout": 0
     },
     "Samurai": {
       "order": 3,
@@ -44,7 +47,8 @@
       "max": 4,
       "specialRules": [
         "Bushido"
-      ]
+      ],
+      "scout": 0
     },
     "Mikata (Ronin & Monks)": {
       "order": 4,
@@ -56,7 +60,8 @@
       "max": 2,
       "specialRules": [
         "Mikata"
-      ]
+      ],
+      "scout": 0
     },
     "Ninja": {
       "order": 5,
@@ -67,7 +72,8 @@
       "armour": "6+",
       "size": 3,
       "points": 60,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Oni": {
       "order": 6,
@@ -80,7 +86,8 @@
       "max": 1,
       "specialRules": [
         "Temple Daemons"
-      ]
+      ],
+      "scout": 0
     },
     "Samurai Cavalry": {
       "order": 7,
@@ -93,7 +100,8 @@
       "max": 3,
       "specialRules": [
         "Bushido"
-      ]
+      ],
+      "scout": 0
     },
     "Komainu": {
       "order": 8,
@@ -105,7 +113,8 @@
       "max": 3,
       "specialRules": [
         "Temple Daemons"
-      ]
+      ],
+      "scout": 0
     },
     "Tengu": {
       "order": 9,
@@ -118,7 +127,8 @@
       "max": 1,
       "specialRules": [
         "Temple Daemons"
-      ]
+      ],
+      "scout": 0
     },
     "Shogun": {
       "order": 10,
@@ -131,7 +141,8 @@
       "armyMax": 1,
       "upgrades": [
         "Tatsu"
-      ]
+      ],
+      "scout": 0
     },
     "Daimyo": {
       "order": 11,
@@ -143,7 +154,8 @@
       "max": 1,
       "upgrades": [
         "Tatsu"
-      ]
+      ],
+      "scout": 0
     },
     "Shugenja": {
       "order": 12,
@@ -157,7 +169,8 @@
         "Tatsu",
         "Shrine",
         "Scroll of Dispelling"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -166,13 +179,15 @@
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+80",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Shrine": {
       "order": 1,
       "type": "Special",
       "points": "+50",
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     }
   },
   "magic": true,

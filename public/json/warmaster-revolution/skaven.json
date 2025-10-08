@@ -12,7 +12,8 @@
       "armour": "6+",
       "size": 3,
       "points": 40,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Stormvermin": {
       "order": 1,
@@ -22,7 +23,8 @@
       "armour": "5+",
       "size": 3,
       "points": 55,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Jezzails": {
       "order": 2,
@@ -33,7 +35,8 @@
       "armour": "6+",
       "size": 3,
       "points": 70,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Plague Monks": {
       "order": 3,
@@ -42,7 +45,8 @@
       "hits": 3,
       "size": 3,
       "points": 70,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Rat Swarms": {
       "order": 4,
@@ -52,7 +56,8 @@
       "size": 3,
       "points": 25,
       "min": 2,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Gutter Runners": {
       "order": 5,
@@ -63,7 +68,8 @@
       "armour": "6+",
       "size": 3,
       "points": 60,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Rat Ogres": {
       "order": 6,
@@ -73,7 +79,8 @@
       "armour": "5+",
       "size": 3,
       "points": 110,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Warp Lightning Cannon": {
       "order": 7,
@@ -83,7 +90,8 @@
       "hits": 2,
       "size": 2,
       "points": 60,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Doom Wheel": {
       "order": 8,
@@ -93,7 +101,8 @@
       "armour": "4+",
       "size": 1,
       "points": 125,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Screaming Bell": {
       "order": 9,
@@ -103,7 +112,8 @@
       "armour": "4+",
       "size": 1,
       "points": 125,
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     },
     "Grey Seer": {
       "order": 10,
@@ -121,7 +131,8 @@
         "Wand of Power",
         "Rod of Repetition",
         "Rat Ogre Bodyguard"
-      ]
+      ],
+      "scout": 0
     },
     "Hero": {
       "order": 11,
@@ -133,7 +144,8 @@
       "max": 2,
       "upgrades": [
         "Rat Ogre Bodyguard"
-      ]
+      ],
+      "scout": 0
     },
     "Warlock": {
       "order": 12,
@@ -145,7 +157,8 @@
       "max": 1,
       "upgrades": [
         "Rat Ogre Bodyguard"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -154,7 +167,8 @@
       "type": "Special Mount",
       "attack": "+1",
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

@@ -16,6 +16,7 @@
           <th>Command</th>
           <th>Size</th>
           <th>Points</th>
+          <th>Scout</th>
           <th>Min/Max</th>
           <th>Special</th>
         </tr>
@@ -37,7 +38,7 @@
         <tr>
           <td class="cost">{{pointsCost}}</td>
           <td class="number">{{unitCount}}/{{Math.ceil(unitCount / 2)}}</td>
-          <td colspan="11"></td>
+          <td colspan="12"></td>
         </tr>
       </tfoot>
     </table>

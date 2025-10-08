@@ -12,7 +12,8 @@
       "armour": "6+",
       "size": 3,
       "points": 30,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Zombies": {
       "order": 1,
@@ -21,7 +22,8 @@
       "hits": 4,
       "size": 3,
       "points": 35,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Ghouls": {
       "order": 2,
@@ -29,7 +31,8 @@
       "attack": 4,
       "hits": 3,
       "size": 3,
-      "points": 55
+      "points": 55,
+      "scout": 0
     },
     "Grave Guard": {
       "order": 3,
@@ -39,7 +42,8 @@
       "armour": "5+",
       "size": 3,
       "points": 60,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Ethereal Host": {
       "order": 4,
@@ -49,7 +53,8 @@
       "size": 3,
       "points": 90,
       "max": 2,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 2
     },
     "Black Knights": {
       "order": 5,
@@ -59,7 +64,8 @@
       "armour": "4+",
       "size": 3,
       "points": 110,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Dire Wolves": {
       "order": 6,
@@ -69,7 +75,8 @@
       "size": 3,
       "points": 40,
       "max": 4,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 1
     },
     "Fell Bats": {
       "order": 7,
@@ -79,7 +86,8 @@
       "armour": "6+",
       "size": 3,
       "points": 65,
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "Vampire Lord": {
       "order": 8,
@@ -98,7 +106,8 @@
         "Scroll of Dispelling",
         "Wand of Power",
         "Rod of Repetition"
-      ]
+      ],
+      "scout": 2
     },
     "Vampire": {
       "order": 9,
@@ -111,7 +120,8 @@
       "upgrades": [
         "Winged Nightmare",
         "Black Coach"
-      ]
+      ],
+      "scout": 1
     },
     "Necromancer": {
       "order": 10,
@@ -123,7 +133,8 @@
       "max": 1,
       "upgrades": [
         "Winged Nightmare"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -132,14 +143,16 @@
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+80",
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "Black Coach": {
       "order": 1,
       "type": "Chariot Mount",
       "attack": "+1",
       "points": "+40",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

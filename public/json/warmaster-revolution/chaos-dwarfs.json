@@ -16,7 +16,8 @@
       "max": 4,
       "upgrades": [
         "Blunderbusses"
-      ]
+      ],
+      "scout": 0
     },
     "Blunderbusses": {
       "order": 1,
@@ -27,7 +28,8 @@
       "armour": "6+",
       "size": 3,
       "points": 90,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Hobgoblins": {
       "order": 2,
@@ -36,7 +38,8 @@
       "range": "15cm",
       "hits": 3,
       "size": 3,
-      "points": 45
+      "points": 45,
+      "scout": 0
     },
     "Black Orcs": {
       "order": 3,
@@ -46,7 +49,8 @@
       "armour": "5+",
       "size": 3,
       "points": 110,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Orc Slaves": {
       "order": 4,
@@ -55,7 +59,8 @@
       "hits": 3,
       "size": 3,
       "points": 40,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Hobgoblin Wolf Riders": {
       "order": 5,
@@ -68,7 +73,8 @@
       "points": 75,
       "specialRules": [
         "Hobgoblins"
-      ]
+      ],
+      "scout": 2
     },
     "Bull Centaurs": {
       "order": 6,
@@ -78,7 +84,8 @@
       "armour": "5+",
       "size": 3,
       "points": 140,
-      "max": 2
+      "max": 2,
+      "scout": 1
     },
     "Earthshaker Cannon": {
       "order": 7,
@@ -95,7 +102,8 @@
       ],
       "homologousUnits": [
         "Death Rocket"
-      ]
+      ],
+      "scout": 0
     },
     "Death Rocket": {
       "order": 8,
@@ -112,7 +120,8 @@
       ],
       "homologousUnits": [
         "Earthshaker Cannon"
-      ]
+      ],
+      "scout": 0
     },
     "Bolt Thrower": {
       "order": 9,
@@ -122,7 +131,8 @@
       "hits": 2,
       "size": 2,
       "points": 65,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "General": {
       "order": 10,
@@ -136,7 +146,8 @@
       "upgrades": [
         "Great Taurus",
         "Sorcerer Lord"
-      ]
+      ],
+      "scout": 2
     },
     "Hero": {
       "order": 11,
@@ -148,7 +159,8 @@
       "max": 1,
       "upgrades": [
         "Great Taurus"
-      ]
+      ],
+      "scout": 1
     },
     "Sorcerer": {
       "order": 12,
@@ -161,7 +173,8 @@
       "upgrades": [
         "Great Taurus",
         "Lammasu"
-      ]
+      ],
+      "scout": 1
     }
   },
   "upgrades": {
@@ -170,14 +183,16 @@
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+80",
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "Lammasu": {
       "order": 1,
       "type": "Monstrous Mount",
       "attack": "+1",
       "points": "+35",
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "Sorcerer Lord": {
       "order": 2,
@@ -191,7 +206,8 @@
         "Scroll of Dispelling",
         "Wand of Power",
         "Rod of Repetition"
-      ]
+      ],
+      "scout": 0
     },
     "Blunderbusses": {
       "order": 3,
@@ -202,7 +218,8 @@
       "armour": "6+",
       "size": 3,
       "points": "-20",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

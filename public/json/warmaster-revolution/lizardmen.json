@@ -12,7 +12,8 @@
       "hits": 3,
       "size": 3,
       "points": 35,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Saurus": {
       "order": 1,
@@ -25,7 +26,8 @@
       "min": 2,
       "specialRules": [
         "Reptilian"
-      ]
+      ],
+      "scout": 0
     },
     "Temple Guard": {
       "order": 2,
@@ -38,7 +40,8 @@
       "max": 1,
       "specialRules": [
         "Reptilian"
-      ]
+      ],
+      "scout": 0
     },
     "Salamanders": {
       "order": 3,
@@ -53,7 +56,8 @@
         "Skinks"
       ],
       "noCount": true,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Kroxigor": {
       "order": 4,
@@ -66,7 +70,8 @@
       "max": 2,
       "specialRules": [
         "Reptilian"
-      ]
+      ],
+      "scout": 0
     },
     "Cold One Riders": {
       "order": 5,
@@ -79,7 +84,8 @@
       "max": 2,
       "specialRules": [
         "Reptilian"
-      ]
+      ],
+      "scout": 0
     },
     "Terradons": {
       "order": 6,
@@ -90,7 +96,8 @@
       "armour": "6+",
       "size": 3,
       "points": 85,
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "Stegadon": {
       "order": 7,
@@ -101,7 +108,8 @@
       "armour": "4+",
       "size": 1,
       "points": 225,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Slann Mage Palanquin": {
       "order": 8,
@@ -119,7 +127,8 @@
         "Scroll of Dispelling",
         "Wand of Power",
         "Rod of Repetition"
-      ]
+      ],
+      "scout": 2
     },
     "Saurus Hero": {
       "order": 9,
@@ -131,7 +140,8 @@
       "max": 1,
       "upgrades": [
         "Carnosaur"
-      ]
+      ],
+      "scout": 0
     },
     "Skink Hero": {
       "order": 10,
@@ -140,7 +150,8 @@
       "command": 8,
       "size": 1,
       "points": 70,
-      "max": 3
+      "max": 3,
+      "scout": 1
     },
     "Skink Shaman": {
       "order": 11,
@@ -149,7 +160,8 @@
       "command": 6,
       "size": 1,
       "points": 30,
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "upgrades": {
@@ -158,14 +170,16 @@
       "type": "Monstrous Mount",
       "attack": "+3",
       "points": "+90",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Carnosaur": {
       "order": 1,
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+65",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

@@ -13,7 +13,8 @@
       "size": 3,
       "points": 65,
       "min": 2,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Eternal Guard": {
       "order": 1,
@@ -23,7 +24,8 @@
       "armour": "5+",
       "size": 3,
       "points": 60,
-      "max": 3
+      "max": 3,
+      "scout": 0
     },
     "Wardancers": {
       "order": 2,
@@ -39,7 +41,8 @@
         "Eternal Guard"
       ],
       "noCount": true,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Waywatchers": {
       "order": 3,
@@ -49,7 +52,8 @@
       "hits": 3,
       "size": 2,
       "points": 60,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Dryads": {
       "order": 4,
@@ -62,7 +66,8 @@
       "min": 1,
       "specialRules": [
         "Forest Spirits"
-      ]
+      ],
+      "scout": 0
     },
     "Glade Riders": {
       "order": 5,
@@ -73,7 +78,8 @@
       "armour": "6+",
       "size": 3,
       "points": 90,
-      "max": 3
+      "max": 3,
+      "scout": 0
     },
     "Wild Riders": {
       "order": 6,
@@ -86,7 +92,8 @@
       "max": 2,
       "specialRules": [
         "Forest Spirits"
-      ]
+      ],
+      "scout": 0
     },
     "Warhawk Riders": {
       "order": 7,
@@ -97,7 +104,8 @@
       "armour": "6+",
       "size": 3,
       "points": 85,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Treekin": {
       "order": 8,
@@ -110,7 +118,8 @@
       "max": 2,
       "specialRules": [
         "Forest Spirits"
-      ]
+      ],
+      "scout": 0
     },
     "Treeman": {
       "order": 9,
@@ -123,7 +132,8 @@
       "max": 1,
       "specialRules": [
         "Forest Spirits"
-      ]
+      ],
+      "scout": 0
     },
     "General": {
       "order": 10,
@@ -138,7 +148,8 @@
         "Giant Stag",
         "Warhawk",
         "Forest Dragon"
-      ]
+      ],
+      "scout": 0
     },
     "Noble": {
       "order": 11,
@@ -152,7 +163,8 @@
         "Giant Stag",
         "Warhawk",
         "Forest Dragon"
-      ]
+      ],
+      "scout": 0
     },
     "Treeman Ancient": {
       "order": 12,
@@ -162,7 +174,8 @@
       "size": 1,
       "points": 130,
       "armyMax": 1,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Branchwraith": {
       "order": 13,
@@ -172,7 +185,8 @@
       "size": 1,
       "points": 90,
       "max": 1,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Spell Weaver": {
       "order": 14,
@@ -187,7 +201,8 @@
         "Unicorn",
         "Warhawk",
         "Forest Dragon"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -196,28 +211,32 @@
       "type": "Special Mount",
       "attack": "+1",
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Unicorn": {
       "order": 1,
       "type": "Special Mount",
       "attack": "+1",
       "points": "+15",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Warhawk": {
       "order": 2,
       "type": "Monstrous Mount",
       "attack": "+1",
       "points": "+15",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Forest Dragon": {
       "order": 3,
       "type": "Monstrous Mount",
       "attack": "+3",
       "points": "+100",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

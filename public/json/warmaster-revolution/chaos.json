@@ -12,7 +12,8 @@
       "armour": "4+",
       "size": 3,
       "points": 140,
-      "min": 1
+      "min": 1,
+      "scout": 0
     },
     "Chaos Marauders": {
       "order": 1,
@@ -22,7 +23,8 @@
       "armour": "5+",
       "size": 3,
       "points": 60,
-      "min": 1
+      "min": 1,
+      "scout": 0
     },
     "Ogres": {
       "order": 2,
@@ -32,7 +34,8 @@
       "armour": "5+",
       "size": 3,
       "points": 105,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Trolls": {
       "order": 3,
@@ -42,7 +45,8 @@
       "armour": "5+",
       "size": 3,
       "points": 110,
-      "max": 3
+      "max": 3,
+      "scout": 0
     },
     "Marauder Horsemen": {
       "order": 4,
@@ -52,7 +56,8 @@
       "armour": "5+",
       "size": 3,
       "points": 90,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Chaos Knights": {
       "order": 5,
@@ -62,7 +67,8 @@
       "armour": "4+",
       "size": 3,
       "points": 180,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Chaos Hounds": {
       "order": 6,
@@ -71,7 +77,8 @@
       "hits": 3,
       "size": 3,
       "points": 40,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Chaos Chariots": {
       "order": 7,
@@ -81,7 +88,8 @@
       "armour": "5+",
       "size": 3,
       "points": 95,
-      "max": 3
+      "max": 3,
+      "scout": 0
     },
     "Harpies": {
       "order": 8,
@@ -91,7 +99,8 @@
       "armour": "6+",
       "size": 3,
       "points": 65,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Dragon Ogres": {
       "order": 9,
@@ -101,7 +110,8 @@
       "armour": "5+",
       "size": 3,
       "points": 230,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Chaos Spawn": {
       "order": 10,
@@ -112,7 +122,8 @@
       "armour": "3+",
       "size": 1,
       "points": 110,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "General": {
       "order": 11,
@@ -126,7 +137,8 @@
       "upgrades": [
         "Chaos Dragon",
         "Chariot"
-      ]
+      ],
+      "scout": 0
     },
     "Hero": {
       "order": 12,
@@ -139,7 +151,8 @@
       "upgrades": [
         "Chaos Dragon",
         "Chariot"
-      ]
+      ],
+      "scout": 0
     },
     "Sorcerer": {
       "order": 13,
@@ -152,7 +165,8 @@
       "upgrades": [
         "Chaos Dragon",
         "Chariot"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -161,14 +175,16 @@
       "type": "Monstrous Mount",
       "attack": "+3",
       "points": "+100",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Chariot": {
       "order": 1,
       "type": "Chariot Mount",
       "attack": "+1",
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

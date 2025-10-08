@@ -12,7 +12,8 @@
       "armour": "6+",
       "size": 3,
       "points": 50,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Crossbowmen": {
       "order": 1,
@@ -25,7 +26,8 @@
       "min": 2,
       "upgrades": [
         "Handgunners"
-      ]
+      ],
+      "scout": 0
     },
     "Handgunners": {
       "order": 2,
@@ -35,7 +37,8 @@
       "hits": 3,
       "size": 3,
       "points": 65,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Swordsmen": {
       "order": 3,
@@ -45,7 +48,8 @@
       "armour": "6+",
       "size": 3,
       "points": 45,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Ogres": {
       "order": 4,
@@ -55,7 +59,8 @@
       "armour": "5+",
       "size": 3,
       "points": 105,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Dwarfs": {
       "order": 5,
@@ -65,7 +70,8 @@
       "armour": "4+",
       "size": 3,
       "points": 110,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Marauders": {
       "order": 6,
@@ -75,7 +81,8 @@
       "armour": "5+",
       "size": 3,
       "points": 60,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Light Cavalry": {
       "order": 7,
@@ -86,7 +93,8 @@
       "armour": "6+",
       "size": 3,
       "points": 75,
-      "max": 4
+      "max": 4,
+      "scout": 2
     },
     "Knights": {
       "order": 8,
@@ -96,7 +104,8 @@
       "armour": "4+",
       "size": 3,
       "points": 110,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Galloper Guns": {
       "order": 9,
@@ -109,7 +118,8 @@
       "max": 1,
       "specialRules": [
         "Cannon"
-      ]
+      ],
+      "scout": 0
     },
     "Giant": {
       "order": 10,
@@ -119,7 +129,8 @@
       "armour": "5+",
       "size": 1,
       "points": 135,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Birdmen": {
       "order": 11,
@@ -130,7 +141,8 @@
       "armour": "6+",
       "size": 3,
       "points": 85,
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "General": {
       "order": 12,
@@ -143,7 +155,8 @@
       "armyMax": 1,
       "upgrades": [
         "Griffon"
-      ]
+      ],
+      "scout": 2
     },
     "Hero": {
       "order": 13,
@@ -155,7 +168,8 @@
       "max": 2,
       "upgrades": [
         "Griffon"
-      ]
+      ],
+      "scout": 1
     },
     "Paymaster": {
       "order": 14,
@@ -170,7 +184,8 @@
       ],
       "upgrades": [
         "Pay Wagon"
-      ]
+      ],
+      "scout": 1
     },
     "Wizard": {
       "order": 15,
@@ -182,7 +197,8 @@
       "max": 1,
       "upgrades": [
         "Griffon"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -191,7 +207,8 @@
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+80",
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "Pay Wagon": {
       "order": 1,
@@ -201,7 +218,8 @@
       "armyMax": 1,
       "specialRules": [
         "Paymaster, Pay Wagon"
-      ]
+      ],
+      "scout": 0
     },
     "Handgunners": {
       "order": 2,
@@ -211,7 +229,8 @@
       "hits": 3,
       "size": 3,
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

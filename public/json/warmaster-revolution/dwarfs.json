@@ -15,7 +15,8 @@
       "min": 2,
       "upgrades": [
         "Handgunners"
-      ]
+      ],
+      "scout": 0
     },
     "Handgunners": {
       "order": 1,
@@ -25,7 +26,8 @@
       "hits": 4,
       "armour": "6+",
       "size": 3,
-      "points": 90
+      "points": 90,
+      "scout": 0
     },
     "Rangers": {
       "order": 2,
@@ -36,7 +38,8 @@
       "armour": "5+",
       "size": 3,
       "points": 110,
-      "max": 2
+      "max": 2,
+      "scout": 3
     },
     "Troll Slayers": {
       "order": 3,
@@ -45,7 +48,8 @@
       "hits": 4,
       "size": 3,
       "points": 80,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Cannon": {
       "order": 4,
@@ -56,7 +60,8 @@
       "armour": "6+",
       "size": 2,
       "points": 90,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Flame Cannon": {
       "order": 5,
@@ -67,7 +72,8 @@
       "armour": "6+",
       "size": 1,
       "points": 50,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Gyrocopter": {
       "order": 6,
@@ -78,7 +84,8 @@
       "armour": "5+",
       "size": 1,
       "points": 75,
-      "max": 1
+      "max": 1,
+      "scout": 3
     },
     "General": {
       "order": 7,
@@ -88,7 +95,8 @@
       "size": 1,
       "points": 155,
       "armyMin": 1,
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 2
     },
     "Hero": {
       "order": 8,
@@ -98,9 +106,10 @@
       "size": 1,
       "points": 80,
       "max": 1,
-      "upgrades":[
+      "upgrades": [
         "Oathstone"
-      ]
+      ],
+      "scout": 1
     },
     "Runesmith": {
       "order": 9,
@@ -114,7 +123,8 @@
         "Anvil",
         "Staff of Spellbinding",
         "Scroll of Dispelling"
-      ]
+      ],
+      "scout": 1
     }
   },
   "upgrades": {
@@ -123,7 +133,8 @@
       "type": "Special",
       "attack": "+1",
       "points": "+50",
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     },
     "Handgunners": {
       "order": 1,
@@ -134,13 +145,15 @@
       "armour": "6+",
       "size": 3,
       "points": "-20",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Oathstone": {
       "order": 2,
       "type": "Special",
       "points": "+15",
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     }
   },
   "magic": true,

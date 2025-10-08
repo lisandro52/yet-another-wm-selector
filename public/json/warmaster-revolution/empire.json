@@ -12,7 +12,8 @@
       "armour": "6+",
       "size": 3,
       "points": 45,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Handgunners": {
       "order": 1,
@@ -22,7 +23,8 @@
       "hits": 3,
       "size": 3,
       "points": 65,
-      "max": 3
+      "max": 3,
+      "scout": 0
     },
     "Crossbowmen": {
       "order": 2,
@@ -35,7 +37,8 @@
       "min": 2,
       "upgrades": [
         "Handgunners"
-      ]
+      ],
+      "scout": 0
     },
     "Flagellants": {
       "order": 3,
@@ -44,7 +47,8 @@
       "hits": 3,
       "size": 3,
       "points": 70,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Skirmishers": {
       "order": 4,
@@ -61,7 +65,8 @@
         "Flagellants"
       ],
       "noCount": true,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Knights": {
       "order": 5,
@@ -70,7 +75,8 @@
       "hits": 3,
       "armour": "4+",
       "size": 3,
-      "points": 110
+      "points": 110,
+      "scout": 0
     },
     "Pistoliers": {
       "order": 6,
@@ -81,7 +87,8 @@
       "armour": "5+",
       "size": 3,
       "points": 95,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Helblaster": {
       "order": 7,
@@ -91,7 +98,8 @@
       "hits": 2,
       "size": 1,
       "points": 50,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Cannon": {
       "order": 8,
@@ -101,7 +109,8 @@
       "hits": 2,
       "size": 2,
       "points": 85,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Steam Tank": {
       "order": 9,
@@ -112,7 +121,8 @@
       "armour": "3+",
       "size": 1,
       "points": 130,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "General": {
       "order": 10,
@@ -125,7 +135,8 @@
       "armyMax": 1,
       "upgrades": [
         "Griffon"
-      ]
+      ],
+      "scout": 0
     },
     "Hero": {
       "order": 11,
@@ -137,7 +148,8 @@
       "max": 2,
       "upgrades": [
         "Griffon"
-      ]
+      ],
+      "scout": 0
     },
     "Wizard": {
       "order": 12,
@@ -150,7 +162,8 @@
       "upgrades": [
         "Griffon",
         "War Altar"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -159,14 +172,16 @@
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+80",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "War Altar": {
       "order": 1,
       "type": "Chariot Mount",
       "attack": "+1",
       "points": "+15",
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     },
     "Handgunners": {
       "order": 2,
@@ -176,7 +191,8 @@
       "hits": 3,
       "size": 3,
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

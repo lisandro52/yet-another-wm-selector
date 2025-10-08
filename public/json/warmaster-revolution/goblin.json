@@ -15,7 +15,8 @@
       "min": 4,
       "upgrades": [
         "Squig Herd"
-      ]
+      ],
+      "scout": 0
     },
     "Squig Herd": {
       "order": 1,
@@ -23,7 +24,8 @@
       "attack": 3,
       "hits": 3,
       "size": 3,
-      "points": 30
+      "points": 30,
+      "scout": 0
     },
     "Trolls": {
       "order": 2,
@@ -33,7 +35,8 @@
       "armour": "5+",
       "size": 3,
       "points": 110,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Wolf Riders": {
       "order": 3,
@@ -44,7 +47,8 @@
       "armour": "6+",
       "size": 3,
       "points": 60,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Wolf Chariots": {
       "order": 4,
@@ -54,7 +58,8 @@
       "armour": "6+",
       "size": 3,
       "points": 75,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Pump Wagon": {
       "order": 5,
@@ -65,7 +70,8 @@
       "size": 1,
       "points": 50,
       "max": 2,
-      "noCount": true
+      "noCount": true,
+      "scout": 0
     },
     "Giant": {
       "order": 6,
@@ -75,7 +81,8 @@
       "armour": "5+",
       "size": 1,
       "points": 135,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Doom Diver": {
       "order": 7,
@@ -85,7 +92,8 @@
       "hits": 2,
       "size": 2,
       "points": 80,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Spear Chukka": {
       "order": 8,
@@ -98,7 +106,8 @@
       "max": 2,
       "specialRules": [
         "Bolt Thrower"
-      ]
+      ],
+      "scout": 0
     },
     "Goblin Warboss": {
       "order": 9,
@@ -112,7 +121,8 @@
       "upgrades": [
         "Wolf Chariot",
         "Wyvern"
-      ]
+      ],
+      "scout": 0
     },
     "Goblin Hero": {
       "order": 10,
@@ -125,7 +135,8 @@
       "upgrades": [
         "Wolf Chariot",
         "Wyvern"
-      ]
+      ],
+      "scout": 0
     },
     "Goblin Shaman": {
       "order": 11,
@@ -138,7 +149,8 @@
       "upgrades": [
         "Wolf Chariot",
         "Wyvern"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -147,14 +159,16 @@
       "type": "Chariot Mount",
       "attack": "+1",
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Wyvern": {
       "order": 1,
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+80",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Squig Herd": {
       "order": 2,
@@ -163,7 +177,8 @@
       "hits": 3,
       "size": 3,
       "points": "+0",
-      "max": 2
+      "max": 2,
+      "scout": 0
     }
   },
   "magic": true,

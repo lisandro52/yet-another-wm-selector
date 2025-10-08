@@ -12,7 +12,8 @@
       "armour": "5+",
       "size": 3,
       "points": 75,
-      "min": 3
+      "min": 3,
+      "scout": 0
     },
     "Daemon Swarm": {
       "order": 1,
@@ -22,7 +23,8 @@
       "size": 3,
       "points": 45,
       "max": 4,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Daemon Cavalry": {
       "order": 2,
@@ -32,7 +34,8 @@
       "armour": "5+",
       "size": 3,
       "points": 110,
-      "max": 3
+      "max": 3,
+      "scout": 0
     },
     "Daemon Hounds": {
       "order": 3,
@@ -42,7 +45,8 @@
       "armour": "5+",
       "size": 3,
       "points": 90,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Daemon Chariots": {
       "order": 4,
@@ -52,7 +56,8 @@
       "armour": "5+",
       "size": 3,
       "points": 95,
-      "max": 3
+      "max": 3,
+      "scout": 0
     },
     "Daemon Beasts": {
       "order": 5,
@@ -62,7 +67,8 @@
       "armour": "5+",
       "size": 3,
       "points": 200,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Daemon Flyers": {
       "order": 6,
@@ -72,7 +78,8 @@
       "armour": "5+",
       "size": 3,
       "points": 80,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Greater Daemon": {
       "order": 7,
@@ -82,7 +89,8 @@
       "armour": "4+",
       "size": 1,
       "points": 280,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Daemon Overlord": {
       "order": 8,
@@ -97,7 +105,8 @@
         "Daemonic Wings",
         "Favour of the Gods",
         "Wizard"
-      ]
+      ],
+      "scout": 0
     },
     "Daemon Lord Hero": {
       "order": 9,
@@ -110,7 +119,8 @@
       "upgrades": [
         "Daemonic Wings",
         "Favour of the Gods"
-      ]
+      ],
+      "scout": 0
     },
     "Daemon Sorcerer": {
       "order": 10,
@@ -123,7 +133,8 @@
       "upgrades": [
         "Daemonic Wings",
         "Favour of the Gods"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -131,14 +142,16 @@
       "order": 0,
       "type": "Special",
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Favour of the Gods": {
       "order": 1,
       "type": "Special",
       "attack": "+1",
       "points": "+50",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Wizard": {
       "order": 2,
@@ -151,7 +164,8 @@
         "Scroll of Dispelling",
         "Wand of Power",
         "Rod of Repetition"
-      ]
+      ],
+      "scout": 0
     }
   },
   "magic": true,

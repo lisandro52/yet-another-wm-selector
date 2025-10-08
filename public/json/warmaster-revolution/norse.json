@@ -12,7 +12,8 @@
       "armour": "5+",
       "size": 3,
       "points": 60,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Huscarls": {
       "order": 1,
@@ -23,7 +24,8 @@
       "size": 3,
       "points": 110,
       "min": 1,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Huntsmen": {
       "order": 2,
@@ -32,7 +34,8 @@
       "range": "30cm",
       "hits": 3,
       "size": 3,
-      "points": 55
+      "points": 55,
+      "scout": 0
     },
     "Berserkers": {
       "order": 3,
@@ -41,7 +44,8 @@
       "hits": 3,
       "size": 3,
       "points": 70,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Ulfwerener": {
       "order": 4,
@@ -52,7 +56,8 @@
       "size": 3,
       "points": 110,
       "max": 1,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Cavalry": {
       "order": 5,
@@ -62,7 +67,8 @@
       "armour": "5+",
       "size": 3,
       "points": 90,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Storm Giant": {
       "order": 6,
@@ -75,7 +81,8 @@
       "max": 1,
       "specialRules": [
         "Giant"
-      ]
+      ],
+      "scout": 0
     },
     "War Mammoth": {
       "order": 7,
@@ -85,7 +92,8 @@
       "armour": "5+",
       "size": 1,
       "points": 180,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Valkyries": {
       "order": 8,
@@ -95,7 +103,8 @@
       "armour": "5+",
       "size": 3,
       "points": 80,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Jarl": {
       "order": 9,
@@ -108,7 +117,8 @@
       "armyMax": 1,
       "upgrades": [
         "Were Kin"
-      ]
+      ],
+      "scout": 0
     },
     "Hero": {
       "order": 10,
@@ -120,7 +130,8 @@
       "max": 1,
       "upgrades": [
         "Were Kin"
-      ]
+      ],
+      "scout": 0
     },
     "Shaman": {
       "order": 11,
@@ -133,7 +144,8 @@
       "upgrades": [
         "Were Kin",
         "Horn of Resounding"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -142,14 +154,16 @@
       "type": "Special",
       "attack": "+1",
       "points": "+40",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Horn of Resounding": {
       "order": 1,
       "type": "Chariot Mount",
       "attack": "+1",
       "points": "+20",
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     }
   },
   "magic": true,

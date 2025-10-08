@@ -11,6 +11,7 @@
     <td class="command">{{troop.command || '-'}}</td>
     <td class="size">{{troop.size || '-' }}</td>
     <td class="points">{{points}}</td>
+    <td class="scout">{{troop.scout || '-'}}</td>
     <td class="minMax">{{troop.minMax}}</td>
     <td class="special">{{special(name, troop.specialRules)}}</td>
   </tr>

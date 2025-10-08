@@ -15,7 +15,8 @@
       "min": 2,
       "specialRules": [
         "Gor/Ungor"
-      ]
+      ],
+      "scout": 0
     },
     "Ungor": {
       "order": 1,
@@ -28,7 +29,8 @@
       "min": 2,
       "specialRules": [
         "Gor/Ungor"
-      ]
+      ],
+      "scout": 0
     },
     "Bestigors": {
       "order": 2,
@@ -38,7 +40,8 @@
       "armour": "5+",
       "size": 3,
       "points": 75,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Minotaurs": {
       "order": 3,
@@ -47,7 +50,8 @@
       "hits": 4,
       "size": 3,
       "points": 80,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Centigors": {
       "order": 4,
@@ -58,7 +62,8 @@
       "armour": "6+",
       "size": 3,
       "points": 75,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Chaos Hounds": {
       "order": 5,
@@ -67,7 +72,8 @@
       "hits": 3,
       "size": 3,
       "points": 40,
-      "max": 6
+      "max": 6,
+      "scout": 0
     },
     "Tuskgor Chariots": {
       "order": 6,
@@ -77,7 +83,8 @@
       "armour": "5+",
       "size": 3,
       "points": 95,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Dragon Ogres": {
       "order": 7,
@@ -87,7 +94,8 @@
       "armour": "5+",
       "size": 3,
       "points": 230,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Chaos Spawn": {
       "order": 8,
@@ -98,7 +106,8 @@
       "armour": "3+",
       "size": 1,
       "points": 110,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Dragon Ogre Shaggoth": {
       "order": 9,
@@ -108,7 +117,8 @@
       "armour": "5+",
       "size": 1,
       "points": 160,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Beastlord": {
       "order": 10,
@@ -121,7 +131,8 @@
       "armyMax": 1,
       "upgrades": [
         "Tuskgor Chariot"
-      ]
+      ],
+      "scout": 0
     },
     "Doombull": {
       "order": 11,
@@ -130,7 +141,8 @@
       "command": 6,
       "size": 1,
       "points": 80,
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     },
     "Wargor": {
       "order": 12,
@@ -142,7 +154,8 @@
       "max": 1,
       "upgrades": [
         "Tuskgor Chariot"
-      ]
+      ],
+      "scout": 0
     },
     "Bray Shaman": {
       "order": 13,
@@ -151,7 +164,8 @@
       "command": 8,
       "size": 1,
       "points": 80,
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "upgrades": {
@@ -160,7 +174,8 @@
       "type": "Chariot Mount",
       "attack": "+1",
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

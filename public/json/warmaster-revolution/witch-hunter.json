@@ -11,7 +11,8 @@
       "hits": 3,
       "size": 3,
       "points": 35,
-      "min": 3
+      "min": 3,
+      "scout": 0
     },
     "Halberdiers": {
       "order": 1,
@@ -21,7 +22,8 @@
       "armour": "6+",
       "size": 3,
       "points": 45,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Crossbowmen": {
       "order": 2,
@@ -31,7 +33,8 @@
       "hits": 3,
       "size": 3,
       "points": 55,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Handgunners": {
       "order": 3,
@@ -41,7 +44,8 @@
       "hits": 3,
       "size": 3,
       "points": 65,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Flagellants": {
       "order": 4,
@@ -50,7 +54,8 @@
       "hits": 3,
       "size": 3,
       "points": 70,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Warhounds": {
       "order": 5,
@@ -66,7 +71,8 @@
         "Pistoliers"
       ],
       "noCount": true,
-      "noMagic": true
+      "noMagic": true,
+      "scout": 0
     },
     "Knights": {
       "order": 6,
@@ -76,7 +82,8 @@
       "armour": "4+",
       "size": 3,
       "points": 110,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Pistoliers": {
       "order": 7,
@@ -87,7 +94,8 @@
       "armour": "5+",
       "size": 3,
       "points": 95,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Cannon": {
       "order": 8,
@@ -97,7 +105,8 @@
       "hits": 2,
       "size": 2,
       "points": 85,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "General": {
       "order": 9,
@@ -107,7 +116,8 @@
       "size": 1,
       "points": 125,
       "armyMin": 1,
-      "armyMax": 1
+      "armyMax": 1,
+      "scout": 0
     },
     "Hero": {
       "order": 10,
@@ -116,7 +126,8 @@
       "command": 8,
       "size": 1,
       "points": 80,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Warrior Priest": {
       "order": 11,
@@ -125,7 +136,8 @@
       "command": 7,
       "size": 1,
       "points": 55,
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,

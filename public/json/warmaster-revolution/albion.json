@@ -12,7 +12,8 @@
       "armour": "5+",
       "size": 3,
       "points": 60,
-      "min": 2
+      "min": 2,
+      "scout": 0
     },
     "Slingers": {
       "order": 1,
@@ -23,7 +24,8 @@
       "size": 3,
       "points": 40,
       "min": 1,
-      "max": 6
+      "max": 6,
+      "scout": 0
     },
     "Ogres": {
       "order": 2,
@@ -33,7 +35,8 @@
       "armour": "5+",
       "size": 3,
       "points": 105,
-      "max": 2
+      "max": 2,
+      "scout": 0
     },
     "Wolfhounds": {
       "order": 3,
@@ -42,7 +45,8 @@
       "hits": 3,
       "size": 3,
       "points": 40,
-      "max": 6
+      "max": 6,
+      "scout": 0
     },
     "Cavalry": {
       "order": 4,
@@ -52,7 +56,8 @@
       "armour": "5+",
       "size": 3,
       "points": 90,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Chariots": {
       "order": 5,
@@ -63,7 +68,8 @@
       "size": 3,
       "points": 95,
       "min": 1,
-      "max": 4
+      "max": 4,
+      "scout": 0
     },
     "Giant": {
       "order": 6,
@@ -73,7 +79,8 @@
       "armour": "5+",
       "size": 1,
       "points": 135,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Giant Eagles": {
       "order": 7,
@@ -83,7 +90,8 @@
       "armour": "6+",
       "size": 3,
       "points": 70,
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Fenbeast": {
       "order": 8,
@@ -97,7 +105,8 @@
       "noCount": true,
       "requiredUnits": [
         "Druid"
-      ]
+      ],
+      "scout": 0
     },
     "General": {
       "order": 9,
@@ -110,7 +119,8 @@
       "armyMax": 1,
       "upgrades": [
         "Chariot"
-      ]
+      ],
+      "scout": 0
     },
     "Hero": {
       "order": 10,
@@ -122,7 +132,8 @@
       "max": 2,
       "upgrades": [
         "Chariot"
-      ]
+      ],
+      "scout": 0
     },
     "Druid": {
       "order": 11,
@@ -135,7 +146,8 @@
       "upgrades": [
         "Giant Eagle",
         "Chariot"
-      ]
+      ],
+      "scout": 0
     }
   },
   "upgrades": {
@@ -144,14 +156,16 @@
       "type": "Monstrous Mount",
       "attack": "+2",
       "points": "+20",
-      "max": 1
+      "max": 1,
+      "scout": 0
     },
     "Chariot": {
       "order": 1,
       "type": "Chariot Mount",
       "attack": "+1",
       "points": "+10",
-      "max": 1
+      "max": 1,
+      "scout": 0
     }
   },
   "magic": true,
